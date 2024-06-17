@@ -8,11 +8,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-# List of keymap json files to build
         file:
-        - wake_preonic.json
         - wake_preonic_miryoku.json
-# End of json file list
 
     steps:
 
